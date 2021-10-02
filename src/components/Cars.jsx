@@ -11,7 +11,7 @@ const Cars = () => {
               {/* Async Section */}
               <BoundingBox 
                 /* visible */
-                position={[2,1,0]}
+                position={[2,2,0]}
                 dims={[2,1.3,4]}
                 offset={[0,0,0.3]}
               >
