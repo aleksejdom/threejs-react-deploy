@@ -5,7 +5,7 @@ import * as THREE from 'three'
 const state = {
     activeMesh: {},
     activeMeshName: 'Object_20',
-    cameraPos: new THREE.Vector3(3,4,3),
+    cameraPos: new THREE.Vector3(3,1,3),
     target: new THREE.Vector3(2,0,0),
     shouldUpdate: true
 }
