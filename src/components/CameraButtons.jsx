@@ -21,14 +21,14 @@ const CameraButtons = ({}) => {
     const sets = {
         //audi
         1: {
-            cameraPos: [3,5,3],
-            target: [2,1,0],
+            cameraPos: [3,4,3],
+            target: [2,0,0],
             name: 'Object_20'
         },
         //tesla
         2: {
-            cameraPos: [-3,5,3],
-            target: [-2,1,0],
+            cameraPos: [-3,4,3],
+            target: [-2,0,0],
             name: 'object005_bod_0'
         }
     }
