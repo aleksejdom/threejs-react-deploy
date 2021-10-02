@@ -6,7 +6,7 @@ const Skybox = () => {
 
     const texture = useLoader(
       THREE.TextureLoader, 
-      process.env.PUBLIC_urL + '/sky.jpg'
+      'https://aleksejdom.github.io/threejs-react-deploy/sky.jpg'
     )
   
     const { gl } = useThree();

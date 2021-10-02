@@ -8,7 +8,7 @@ const Model = props => {
 
     const model = useLoader(
         GLTFLoader,
-        process.env.PUBLIC_urL + props.path
+        'https://aleksejdom.github.io/threejs-react-deploy/' + props.path
     )
 
     model.scene.traverse(child => {
