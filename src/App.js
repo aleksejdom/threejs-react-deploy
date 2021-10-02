@@ -31,7 +31,7 @@ function App() {
         }}
         shadowMap 
         style={{background: '#000000'}}
-        camera={{position: [1,5,1]}} 
+        camera={{position: [1,0,1]}} 
       >
         <CameraControls />
         <Orbit />
