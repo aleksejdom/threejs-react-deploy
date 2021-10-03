@@ -46,21 +46,21 @@ const CameraButtons = ({}) => {
                 onClick={ e => handleClick(2) }
                 style={{
                     ...style,
-                    left: '40vw',
+                    left: '20vw',
                   
                 }}
             >
-                {'<'}
+                {'PREV'}
             </button>
             <button
                 onClick={ e => handleClick(1) }
                 style={{
                     ...style,
-                    right: '40vw',
+                    right: '20vw',
                  
                 }}
             >
-                {'>'}
+                {'NEXT'}
             </button>
         </>
     )
