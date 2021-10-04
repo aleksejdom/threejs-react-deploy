@@ -4,15 +4,10 @@ const style = {
     zIndex: 1,
     position: 'absolute',
     bottom: '10vh',
-    height: '30px',
-    width: '30px',
-    background: 'white',
     textAlign: 'center',
-    borderRadius: '100%',
     fontSize: 20,
     fontWeight: 'bold',
-    opacity: 0.7,
-    border: '1px solid black',
+    opacity: 0.9,
     cursor: 'pointer'
 }
 
