@@ -37,12 +37,27 @@ const ColorPicker = () => {
             </div>
             <div onClick={handleClick}
             style={{
-                background: 'white',
+                background: 'red',
                 height: 50,
                 width: 50
             }}
             >
             </div>
+            <div onClick={handleClick}
+            style={{
+                background: '#1B3D81',
+                height: 50,
+                width: 50
+            }}
+            >
+            </div>
+            <div onClick={handleClick}
+            style={{
+                background: '#E4C27E ',
+                height: 50,
+                width: 50
+            }}
+            ></div>
         </div>
     )
 }
